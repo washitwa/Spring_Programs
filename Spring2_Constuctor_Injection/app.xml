@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+<bean id="Circle" class="com.mani.placements.Circle">
+<constructor-arg type="java.lang.String" value="Circle"></constructor-arg>
+<constructor-arg value="5"></constructor-arg>
+</bean>
+</beans>
