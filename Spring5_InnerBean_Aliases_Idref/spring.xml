@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+	<bean id='Circ' class='com.mani.placements.CircleArea'>
+	<property name='pointA'>
+		<bean id='point1' class='com.mani.placements.Point'>
+			<property name='r' value='10'></property>
+		</bean>
+	</property>
+	<property name='pointB'>
+		<bean id='point2' class='com.mani.placements.Point'>
+			<property name='r' value='20'></property>
+		</bean>
+	</property>
+	<property name='pointC'>
+		<bean id='point3' class='com.mani.placements.Point'>
+			<property name='r' value='30'></property>
+		</bean>
+	</property>
+	</bean>
+	<alias name='Circ' alias='Circ-alias'></alias>
+</beans>
