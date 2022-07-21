@@ -34,9 +34,9 @@ public class Circle implements ApplicationContextAware, BeanNameAware{
 	}
 
 	public void draw() {
-		System.out.println("First Radius is: "+getPointA().r+" Radius is: "+3.14*(getPointA().r*getPointA().r));
-		System.out.println("First Radius is: "+getPointB().r+" Radius is: "+3.14*(getPointB().r*getPointB().r));
-		System.out.println("First Radius is: "+getPointC().r+" Radius is: "+3.14*(getPointC().r*getPointC().r));
+		System.out.println("First Radius is: "+getPointA().r+" Area is: "+3.14*(getPointA().r*getPointA().r));
+		System.out.println("First Radius is: "+getPointB().r+" Area is: "+3.14*(getPointB().r*getPointB().r));
+		System.out.println("First Radius is: "+getPointC().r+" Area is: "+3.14*(getPointC().r*getPointC().r));
 	}
 
 	@Override
